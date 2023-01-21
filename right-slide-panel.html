@@ -97,24 +97,53 @@
 
 	
 
-.button {
-    background-color: #4CAF50; /* Green background */
-    border: 1px solid green; /* Green border */
-    color: white; /* White text */
-    padding: 10px 24px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    width: 50%; /* Set a width if needed */
-    display: block; /* Make the buttons appear below each other */
-}
+    a:focus {
+      outline: none;
+    }
 
-.button:not(:last-child) {
-    border-bottom: none; /* Prevent double borders */
-}
+    .topmenu {
+      float: left;
+    }
 
-/* Add a background color on hover */
-.button:hover {
-    background-color: #3e8e41;
-}	
+    .topmenu ul, .topmenu li {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .topmenu ul li {
+      position: relative;
+      width: 140px;
+    }
+
+    .topmenu ul li a {
+      display: block;
+      padding: 10px 10px 10px 30px;
+      background: url('images/window.gif') no-repeat 10px center;
+      color: #0000FF;
+      text-decoration: none;
+      border: 1px solid #999;
+      margin: 1px;
+    }
+
+    .topmenu ul li a:HOVER {
+      color: #0000CC;
+      background-color: #eee;
+    }
+
+    .topmenu ul li ul {
+      display: none;
+      position: absolute;
+      top: 0px;
+      left: 140px;
+    }
+	
+	
+	
+	
+	
+	
+	
 </style>
 <body>
 	
