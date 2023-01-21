@@ -97,7 +97,24 @@
 
 	
 
-	
+.btn-group button {
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 50%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+}
+
+.btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}	
 </style>
 <body>
 	
@@ -113,11 +130,11 @@
 <div class="side-panel">
     <label class="side-button-2" for="side-checkbox">+</label>   
     <div class="side-title">Выдвижная панель:</div>
-     <button type="button" class="btn btn-light">Профиль пользователя</button>
-    <p>Данные</p>
-    <p>Данные</p>
-    <p>Данные</p>
-    <button type="button" class="btn btn-light">Светлый</button>
+   <div class="btn-group">
+  <button>Apple</button>
+  <button>Samsung</button>
+  <button>Sony</button>
+</div>
 </div>
     
 </div>
