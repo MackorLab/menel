@@ -141,7 +141,24 @@
 	
 	
 	
-	
+.btn-group {
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 50%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+}
+
+.btn-group:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group:hover {
+    background-color: #3e8e41;
+}
 	
 	
 </style>
@@ -158,6 +175,14 @@
     <label class="side-button-2" for="side-checkbox">+</label>   
     <div class="side-title">Выдвижная панель:</div>
  
+	
+
+  <button class="btn-group">Личный кабинет</button>
+
+
+	
+	
+	
 	
 	
 	<div class="topmenu">
@@ -186,8 +211,9 @@
     </ul>       
 </div>
 	
+  <button class="btn-group">Экзамен</button>	
 	
-    
+  <button class="btn-group">Диплом</button> 
 </div>
 
 	
