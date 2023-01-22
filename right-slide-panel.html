@@ -125,10 +125,11 @@ body {
     }
 	
   
-    .card_pop{
+    .panel{
+     float: left;   
       z-index: 999999; 
-    width: 550px;
-    height: 600px;  
+    width: 320px;
+    height: 100vh; 
 	   
      overflow: auto;
           
@@ -224,7 +225,7 @@ vkBridge.send('VKWebAppInit');
 	
 <input type="checkbox" id="side-checkbox" />
 	
-
+<div class="panel">
 <div class="side-panel">
     <label class="side-button-2" for="side-checkbox">+</label>   
     <div class="side-title">Выдвижная панель:</div>
@@ -289,7 +290,7 @@ vkBridge.send('VKWebAppInit');
     </label>
 </div> 
 
-		
+		</div>		
 
 	
 	
